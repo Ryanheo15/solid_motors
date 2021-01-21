@@ -1,0 +1,25 @@
+/* GENERAL */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HEADER */
+.navbar {
+    background-color:#000000 !important;
+}
+
+.nav-link {
+    color:#ffffff !important;
+}
+
+/* INDEX */
+#indexMain .main_section {
+    height:65vh;
+    background:url("../assets/car_background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
