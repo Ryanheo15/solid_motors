@@ -13,6 +13,7 @@ mongoose.connect("mongodb://localhost:27017/car_dealership", {useNewUrlParser: t
 
 //routes
 let indexRoute = require("./routes/index.js");
+let carRoute = require("./routes/cars.js");
 
 //app set up
 let app = express();
@@ -25,6 +26,7 @@ app.use(methodOverride("_method"));
 const port = process.env.PORT || 3000;
 
 // ---------------------- ROUTES -------------------------
+app.use(carRoute);
 app.use(indexRoute);
 
 // ---------------------- LISTEN -------------------------
