@@ -5,6 +5,16 @@
     box-sizing:border-box;
 }
 
+.w-90 {
+    width:90%;
+    margin:auto;
+}
+
+.w-80 {
+    width:80%;
+    margin:auto;
+}
+
 /* HEADER */
 .navbar {
     background-color:#000000 !important;
@@ -14,7 +24,7 @@
     color:#ffffff !important;
 }
 
-/* INDEX */
+/* MAIN */
 #indexMain .main_section {
     height:65vh;
     background:url("../assets/car_background.jpg");
@@ -22,4 +32,16 @@
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
+}
+
+/* WORKS */ 
+.works-img {
+    height:150px;
+    border-radius:50%;
+}
+
+/* SERVICES */ 
+.services_section .col-md-5{
+    background-color:#f7f8fd;
+    height:400px;
 }
