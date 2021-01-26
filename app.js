@@ -20,7 +20,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride("_method"));
 
-//local varaibles
+//local variables
 //Constant variables
 const port = process.env.PORT || 3000;
 

@@ -10,11 +10,16 @@
           integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel = "stylesheet" href = "./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
 
     <title>SolidMotors
     </title>
@@ -24,109 +29,196 @@
 
 <!-- Header Section -->
 <header>
-        <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
-                <div class = "container p-3">
-                        <a class="navbar-brand" href="#"><b>Solid Motors</b></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+        <div class="container p-2">
+            <a class="navbar-brand" href="#"><b>Solid Motors</b> <span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                                <a class="nav-link" href="#">Link 1</a>
-                                        </li>
-                                        <li class="nav-item">
-                                                <a class="nav-link" href="#">Link 2</a>
-                                        </li>
-                                        <li class="nav-item">
-                                                <a class="nav-link" href="#">Link 3</a>
-                                        </li>
-                                </ul>
-                        </div>
-                </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SELL/TRADE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FINANCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SIGN IN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
 
 <!-- Main Section -->
-<main id = "indexMain" class = "pb-5 mb-5">
-        <div class = "main_section">
-                
-        </div>
+<main id="indexMain" class="pb-5 mb-5">
+    <div class="main_section">
 
-        <div class = "works_section mt-5 pt-5">
-                <div class = "w-80">
-                        <div class = "row">
-                                <div class = "col-md-4">
-                                        <div class = "row">
-                                                <div class = "col-md-5">
-                                                        <img class = "img-fluid works-img" src = "https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
-                                                </div>
-                                                <div class = "col-md-7 pt-4">
-                                                        <h4>High Quality Cars</h4>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
-                                                </div>
-                                        </div>
-                                </div>
+    </div>
 
-                                <div class = "col-md-4">
-                                        <div class = "row">
-                                                <div class = "col-md-5">
-                                                        <img class = "img-fluid works-img" src = "https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
-                                                </div>
-                                                <div class = "col-md-7 pt-4">
-                                                        <h4>High Quality Cars</h4>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
-                                                </div>
-                                        </div>
-                                        <!--
-                                        <div class = "row text-center">
-                                                <button class = "btn btn-lg btn-primary px-5 mx-auto mt-5">Buy Now</button>
-                                        </div>
-                                        -->
-                                </div>
+    <section>
+        <div class="tile-container container-fluid my-3">
+            <div class="row text-center">
+                <div class="col-6 pe-2">
+                    <div class="tile rounded">
+                        <h1 class="">The Future of Dealerships</h1>
+                        <h4>Accessible, quick, and quality.</h4>
+                        <p class="px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed dictum velit, a accumsan
+                            magna.
+                            <br>
+                            <a href="#" class="link-primary">Learn More</a>
+                        </p>
 
-                                <div class = "col-md-4">
-                                        <div class = "row">
-                                                <div class = "col-md-5">
-                                                        <img class = "img-fluid works-img" src = "https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
-                                                </div>
-                                                <div class = "col-md-7 pt-4">
-                                                        <h4>High Quality Cars</h4>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
+                        <img src="assets/Auto%20Insurance.png" alt="Man next to car illustration" width="480">
+                    </div>
                 </div>
-        </div>
+                <div class="col-6 ps-2">
+                    <div class="tile rounded">
+                        <h1 class="">The Future of Dealerships</h1>
+                        <h4>Accessible, quick, and quality.</h4>
+                        <p class="px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed dictum velit, a accumsan
+                            magna.
+                            <br>
+                            <a href="#" class="link-primary">Learn More</a>
+                        </p>
 
-        <div class = "services_section mt-5">
-                <div class = "container-fluid">
-                        <div class = "row">
-                                <div class = "col-md-6">
-
-                                </div>
-                                <div class = "col-md-6">
-                                        
-                                </div>
-                        </div>
+                        <img src="assets/Auto%20Insurance.png" alt="Man next to car illustration" width="480">
+                    </div>
                 </div>
+            </div>
+
+            <div class="row text-center my-3">
+                <div class="col-6 pe-2">
+                    <div class="tile rounded">
+                        <h1 class="">The Future of Dealerships</h1>
+                        <h4>Accessible, quick, and quality.</h4>
+                        <p class="px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed dictum velit, a accumsan
+                            magna.
+                            <br>
+                            <a href="#" class="link-primary">Learn More</a>
+                        </p>
+
+                        <img src="assets/Auto%20Insurance.png" alt="Man next to car illustration" width="480">
+                    </div>
+                </div>
+                <div class="col-6 ps-2">
+                    <div class="tile rounded">
+                        <h1 class="">The Future of Dealerships</h1>
+                        <h4>Accessible, quick, and quality.</h4>
+                        <p class="px-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed dictum velit, a accumsan
+                            magna.
+                            <br>
+                            <a href="#" class="link-primary">Learn More</a>
+                        </p>
+
+                        <img src="assets/Auto%20Insurance.png" alt="Man next to car illustration" width="480">
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <div class="works_section mt-5 pt-5">
+        <div class="w-80">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-fluid works-img"
+                                 src="https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
+                        </div>
+                        <div class="col-md-7 pt-4">
+                            <h4>High Quality Cars</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-fluid works-img"
+                                 src="https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
+                        </div>
+                        <div class="col-md-7 pt-4">
+                            <h4>High Quality Cars</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class = "row text-center">
+                            <button class = "btn btn-lg btn-primary px-5 mx-auto mt-5">Buy Now</button>
+                    </div>
+                    -->
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="img-fluid works-img"
+                                 src="https://imagescdn.dealercarsearch.com/dealerimages/10071/22089/fx2.jpg"/>
+                        </div>
+                        <div class="col-md-7 pt-4">
+                            <h4>High Quality Cars</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit./p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services_section mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
+<!-- Footer -->
+<footer class="bg-black py-4">
+    <div class="container text-light">
+        <span class="float-end"><a href="#">Back to top</a></span>
+        <address>
+            <strong>Solid Motors, Inc.</strong><br>
+            1355 Market St, Suite 900<br>
+            San Francisco, CA 94103<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"
-        integrity="sha256-fTuUgtT7O2rqoImwjrhDgbXTKUwyxxujIMRIK7TbuNU=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:first.last@example.com">first.last@example.com</a>
+        </address>
+
+        © 2020 Solid Motors, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>
+    </div>
+</footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
 </body>
 </html>

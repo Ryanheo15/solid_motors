@@ -1,47 +1,55 @@
 /* GENERAL */
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
 }
 
 .w-90 {
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
 
 .w-80 {
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
 }
 
 /* HEADER */
-.navbar {
-    background-color:#000000 !important;
+.bg-black {
+    background-color: #000000 !important;
 }
 
 .nav-link {
-    color:#ffffff !important;
+    color: #ffffff !important;
 }
 
 /* MAIN */
 #indexMain .main_section {
-    height:65vh;
-    background:url("../assets/car_background.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-attachment:fixed;
+    height: 65vh;
+    background: url("../assets/car_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-/* WORKS */ 
+.tile {
+    background-color: rgba(0, 0, 0, 0.02)
+}
+
+/* WORKS */
 .works-img {
-    height:150px;
-    border-radius:50%;
+    height: 150px;
+    border-radius: 50%;
 }
 
-/* SERVICES */ 
-.services_section .col-md-5{
-    background-color:#f7f8fd;
-    height:400px;
+/* SERVICES */
+.services_section .col-md-5 {
+    background-color: #f7f8fd;
+    height: 400px;
 }
